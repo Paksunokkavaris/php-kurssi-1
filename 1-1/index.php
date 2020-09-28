@@ -3,11 +3,16 @@
 
 //echo = tulostus käsky   "" = teksti jonka haluaa tulostaa...  
 //tulostu käskyinä toimii myös print & printf (printf )
+$tervehdys = "Hello World!"  ;
+echo 
 
-echo "Hello World!";
-
+ $tervehdys
+ 
+ ;
+ 
 // tai tavalla 
  
-$tervehdys = "Hello World!";
-print tervehdys;
+//echo "hello world" 
+
+
 
