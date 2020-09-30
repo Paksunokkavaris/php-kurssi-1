@@ -22,3 +22,6 @@ $decimal = 50.95;
 	//table = array() tai pelkkä []
 
 $table = [ 'A','B','C'];
+
+echo $letters . "<br>". $number . "<br>". $decimal . "<br>";
+print_r($table);

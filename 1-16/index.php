@@ -11,3 +11,8 @@ $lastNames = [
     'Testinen'
 ];
 
+foreach ($firstNames as $etu){ 
+    foreach ($lastNames as $suku){
+        echo $etu. " ". $suku . "<br>";    }
+
+}

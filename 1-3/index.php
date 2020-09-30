@@ -1,4 +1,5 @@
 <?php
 $name = 'Mira';
 $age  = 28;
- testing
+ 
+echo "Nimeni on $name ja olen $age vuotta. ";
