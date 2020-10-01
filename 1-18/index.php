@@ -16,13 +16,15 @@ if (strlen($prefix)< 20 ){
 $result = [];
 for ($i = 0; $i < $count; $i++)
 {
-    $first = $firstNames[rand(0,(count($firstNames))-1)] 
-    $last = $lastNames[rand(0,(count($lastNames))-1)] 
+    $first = $firstNames[rand(0,(count($firstNames))-1)];
+    $last = $lastNames[rand(0,(count($lastNames))-1)] ;
 
     $result[] = $prefix . " " . $first. " " . $last ;
 // vaihtoentoinen tapa toimia.. 
     //$resilt [] =  sprintf("%s %s %s ", $prefix,  $first, $last )
+    return $result
+
+
+ 
+print_f $result;
 }
-return $result
-} 
-echo $result;
